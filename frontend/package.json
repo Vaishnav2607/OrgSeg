@@ -1,0 +1,26 @@
+{
+    "name": "ml",
+    "version": "1.0.0",
+    "description": "Welcome to the Multi-Organ Segmentation Transformer repository! Our project introduces a cutting-edge approach to multi-organ segmentation in medical imaging, leveraging transformer-based architectures. Our model, named UNETR (UNet Transformers), employs a transformer as the encoder to capture sequence representations of input volumes and effectively grasp global multi-scale information. This design, inspired by the successful \"U-shaped\" network, ensures accurate delineation of multiple organs from medical images.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "nodemon api/index.js",
+      "start": "node api/index.js"
+    },
+    "author": "Vaishnav267",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^1.7.2",
+      "bcryptjs": "^2.4.3",
+      "cors": "^2.8.5",
+      "dotenv": "^16.4.5",
+      "express": "^4.19.2",
+      "groq-sdk": "^0.5.0",
+      "jsonwebtoken": "^9.0.2",
+      "mongoose": "^8.4.0",
+      "nodemon": "^3.1.0"
+    }
+  }
+  
